@@ -1,0 +1,13 @@
+{
+  "name": "node_http_server",
+  "version": "1.0.0",
+  "description": "My first HTTP Node Web Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js" /* This changes node dynamically */
+  },
+  "author": "Kevin Jeffers",
+  "license": "ISC"
+}
